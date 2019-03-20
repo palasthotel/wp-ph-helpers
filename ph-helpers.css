@@ -1,0 +1,22 @@
+.field-autocomplete-multiple .entry-list .entry,
+.field-autocomplete .entry-list .entry,
+.field-autocomplete-multiple-styles .entry-list .entry,
+.field-autocomplete-styles .entry-list .entry{
+	position: relative;
+	padding: 5px 15px;
+	border: 1px solid #ddd;
+	margin-top: 5px;
+	padding-right: 50px;
+	max-width: 400px;
+}
+
+.field-autocomplete-multiple .entry-list .entry span,
+.field-autocomplete .entry-list .entry span,
+.field-autocomplete-styles .entry-list .entry span,
+.field-autocomplete-multiple-styles .entry-list .entry span{
+	position: absolute;
+	right: 5px;
+	top: 3px;
+	font-weight: bold;
+	cursor: pointer;
+}

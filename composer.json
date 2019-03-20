@@ -1,0 +1,9 @@
+{
+    "name": "mstrehse/ph-helpers",
+    "require": {
+        "cocur/slugify": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {"PhHelpers\\": "classes/"}
+    }
+}
